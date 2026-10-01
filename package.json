@@ -1,0 +1,14 @@
+{
+  "name": "makers-challenge",
+  "version": "1.0.0",
+  "description": "Challenge Módulo de Automatización - Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^13.15.0"
+  }
+}
