@@ -38,7 +38,7 @@ npm install
 
 npm run cy:open
 
-Ahi elige -> E2E Testing -> el navegador → y selecciona `login.cy.js`.
+Elegir -> E2E Testing -> elegir el navegador -> y seleccionar `login.cy.js`.
 
 3- Modo consola headless:
 
