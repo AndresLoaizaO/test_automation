@@ -1,6 +1,6 @@
 // cypress/e2e/login.cy.js
-// Smoke Test - Inicio de Sesión (SauceDemo)
-// Cubre: login exitoso, login fallido (contraseña incorrecta), validación de campos obligatorios
+// Smoke Test - (SauceDemo)
+
 
 describe('Smoke Test - Login SauceDemo', () => {
   const validUser = 'standard_user';
