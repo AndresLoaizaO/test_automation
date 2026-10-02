@@ -5,11 +5,15 @@ Smoke test del login de Saucedemo, hecho con cypress.
 ## Estructura del proyecto
 
 ```
-makers-challenge/
+test_automation/
 ├── cypress/
 │   └── e2e/
-│       └── login.cy.js      # Smoke test de login
+│       └── login.cy.js             
+├── docs/
+│   └── Informe de Evidencias de Pruebas Automatizadas de API.pdf   # Documentación técnica API
+├── .gitignore
 ├── cypress.config.js
+├── package-lock.json
 ├── package.json
 └── README.md
 ```
@@ -53,3 +57,7 @@ npm run cy:run
 - Falta el campo contraseña.
 - Faltan ambos campos.
 - Extra: usuario bloqueado (`locked_out_user`), para ver como responde el sistema a ese caso tambien.
+
+## PDF pruebas de API
+
+* [Ver Informe de Pruebas de API (PDF)](./docs/Informe%20de%20Evidencias%20de%20Pruebas%20Automatizadas%20de%20API.pdf)
